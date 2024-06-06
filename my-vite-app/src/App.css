@@ -1,0 +1,47 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light gray background */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 100px auto; /* Center the container vertically and horizontally */
+  padding: 20px;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  background-color: #fff; /* White background */
+  border: 2px solid #2e8b57; /* Jungle green border */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000; /* Black font color */
+}
+
+.card-email {
+  margin-top: 5px;
+  color: #000; /* Black font color */
+}
